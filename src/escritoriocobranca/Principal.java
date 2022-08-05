@@ -12,7 +12,6 @@ package escritoriocobranca;
     Acordo a ser feito com as partes
     Forma de pagamento
     Valor a ser cobrado = valor original + taxa
-
  */
 public class Principal {
 
