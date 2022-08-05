@@ -13,9 +13,8 @@ public class Divida {
     private Pessoa devedora;
     private Pessoa cobradora;
     private Double valorDivida;
-    
-    
-    public Divida(Pessoa devedora, Pessoa cobradora, double valorDivida){
+
+    public Divida(Pessoa devedora, Pessoa cobradora, double valorDivida) {
         this.devedora = devedora;
         this.cobradora = cobradora;
         this.valorDivida = valorDivida;
@@ -32,6 +31,5 @@ public class Divida {
     public Double getValorDivida() {
         return valorDivida;
     }
-    
-    
+
 }

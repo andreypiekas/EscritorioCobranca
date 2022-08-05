@@ -39,12 +39,12 @@ public class PessoaFisica extends Pessoa {
 
     @Override
     public String getDocumento() {
-       return this.getCpf();
+        return this.getCpf();
     }
 
     @Override
     public String getDataFormatada() {
-      return this.dataNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+        return this.dataNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 
 }

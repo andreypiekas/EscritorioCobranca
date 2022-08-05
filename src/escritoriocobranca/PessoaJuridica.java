@@ -8,13 +8,14 @@ package escritoriocobranca;
  *
  * @author Andrey Gheno Piekas <andreypiekas at https://github.com/andreypiekas>
  */
-public class PessoaJuridica extends Pessoa{
+public class PessoaJuridica extends Pessoa {
+
     private String cnpj;
 
-    public PessoaJuridica(){
-        
+    public PessoaJuridica() {
+
     }
-    
+
     public String getCnpj() {
         return cnpj;
     }
@@ -25,16 +26,12 @@ public class PessoaJuridica extends Pessoa{
 
     @Override
     public String getDocumento() {
-       return this.getCnpj();
+        return this.getCnpj();
     }
 
     @Override
     public String getDataFormatada() {
-       return "Informação inexistente";
+        return "Informação inexistente";
     }
-    
-    
-    
-    
-    
+
 }
