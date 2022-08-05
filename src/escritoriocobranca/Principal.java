@@ -29,7 +29,7 @@ public class Principal {
         Divida divida = new Divida(lojaDoBairro, joao, 1000.00);
         System.out.println("Nome: " + divida.getDevedora().getDocumento());
 
-        AcordoDivida acordoDivida = new AcordoDivida(divida, FormaDePagamento.BOLETO);
+        AcordoDivida acordoDivida = new AcordoDivida(divida, FormaDePagamento.CREDITO);
         System.out.println("---- Dados Devedor: ");
         System.out.println("Nome: " + acordoDivida.getDivida().getDevedora().getNome());
         System.out.println("Data Nascimento: " + acordoDivida.getDivida().getDevedora().getDataFormatada());
