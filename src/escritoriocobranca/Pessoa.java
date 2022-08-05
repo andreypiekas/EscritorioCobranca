@@ -4,7 +4,7 @@ package escritoriocobranca;
  *
  * @author Andrey Gheno Piekas <andreypiekas at https://github.com/andreypiekas>
  */
-public class Pessoa {
+public abstract class Pessoa {
     
     private String nome;
     
@@ -17,4 +17,7 @@ public class Pessoa {
         return this.nome;
     }
     
+    
+    public abstract String getDocumento();
+    public abstract String getDataFormatada();
 }

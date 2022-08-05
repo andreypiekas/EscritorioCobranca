@@ -37,4 +37,14 @@ public class PessoaFisica extends Pessoa {
         this.dataNascimento = LocalDate.parse(dataNascimento, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 
+    @Override
+    public String getDocumento() {
+       return this.getCpf();
+    }
+
+    @Override
+    public String getDataFormatada() {
+      return this.dataNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+    }
+
 }
